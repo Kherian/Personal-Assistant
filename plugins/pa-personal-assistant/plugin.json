@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pa-personal-assistant",
+  "version": "1.2.1",
+  "description": "Assistente pessoal com funções independentes de Briefing, Secretary, pesquisa acadêmica e oportunidades, biblioteca e encaminhamento opcional por horário.",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/pa-personal-assistant/SKILL.md",
+      "interface": {
+        "displayName": "PA — Personal Assistant",
+        "shortDescription": "Briefing e acompanhamento com escolhas individuais"
+      }
+    }
+  }
+}

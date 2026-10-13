@@ -1,0 +1,17 @@
+# Perfis, estado operacional e materiais locais nao pertencem ao pacote publico.
+private/
+local/
+user-data/
+profiles/
+state/
+uploads/
+*.opml
+.env
+.env.*
+credentials.json
+token.json
+secrets/
+.DS_Store
+__pycache__/
+*.pyc
+*.log

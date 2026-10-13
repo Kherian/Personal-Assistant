@@ -1,0 +1,20 @@
+{
+  "name": "pa-personal-assistant",
+  "interface": {
+    "displayName": "PA — Personal Assistant"
+  },
+  "plugins": [
+    {
+      "name": "pa-personal-assistant",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pa-personal-assistant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

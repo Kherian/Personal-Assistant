@@ -1,0 +1,7 @@
+interface:
+  display_name: "PA — Personal Assistant"
+  short_description: "Briefing, acompanhamento e biblioteca pessoal"
+  default_prompt: "Use $pa-personal-assistant para configurar minhas funções, fontes e permissões."
+
+policy:
+  allow_implicit_invocation: true
